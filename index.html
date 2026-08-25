@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Online</title>
+    <link rel="stylesheet" href="./styless.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar1">
+  <img
+          class="logo"
+          src="https://occ.a.nflxso.net/dnmt/api/v6/iL4oJVDYZ8KLSrJ6eG2OwtghbfQ/AAAAAfwxusEeCteu-L_QQ56_G2cohyI1E4BIh2uyr5t9gDhH0CKWHw3NVhndjuF7yQ26z3cYq_lnzY5pP6OarHyiibuiy2jIIa5sIhSvgal1S6u9YDVAyVoX6osPniEKN-dYy77H_pLfOCD7.svg" alt="Netflix Logo"/>
+        <div class="nav-action">
+          <select class="lang-selection">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+          </select>
+          <button class="btn">Sign In</button>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Unlimited movies, shows, and more</h1>
+        <p class="price-text">Starts at ₹149. Cancel at any time.</p>
+        <p class="email-text">Ready to watch? Enter your email to create or restart your membership.</p>
+        <form class="email-form">
+          <input type="email" placeholder="Email address" required />
+          <button type="submit">Get Started</button>
+        </form>
+      </div>
+    </section>
+    <div class="hero-bottom"></div>
+    <section class="trending-section">
+      <h2>Trending Now</h2>
+      <div class="movie-slider">
+        <article class="movie-card">
+          <span class="movie-number"> 1 </span>
+          <img src="data:image/webp;base64,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" alt="Jailer"/>
+        </article>
+        <article class="movie-card">
+          <span class="movie-number"> 2 </span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8t2czukujwyDTe496y-dYZtRH4wuflwmGVk-cnGYQZrVHX88KL9ciwYJe&s=10" alt="Kamal Hassan" />
+        </article>
+        <article class="movie-card">
+          <span class="movie-number"> 3 </span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEx3RwP375d_xBh8PJWbPZCevl-DkPfrNZtrSu80ohlA&s=10" alt="PS2" />
+        </article>
+        <article class="movie-card">
+          <span class="movie-number"> 4 </span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMkrZ3ELpRkwLjluWshJk3RJkNv_kR_Gcjq7B0qiZ6gw&s=10" alt="Thalapathy" />
+        </article>
+        <article class="movie-card">
+          <span class="movie-number"> 5 </span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJmxKnpni5q6V6TdmVSpCttTwbl2iDab3ipdZajfJUUg&s=10" alt="Moondram Kan" />
+        </article>
+        <article class="movie-card">
+          <span class="movie-number"> 6 </span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQACqPxM-8hWe7AEpQ2tXfZLRug2SNszTlOJfo5zIlW4A&s=10" alt="BB2"/>
+        </article>
+        <button class="next-btn">›</button>
+      </div>
+    </section>
+    <section class="reasons-section">
+      <h2>More reasons to join</h2>
+      <div class="feature-section">
+        <article class="feature-card">
+          <h3>Enjoy on your TV</h3>
+          <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Download your shows to watch offline</h3>
+          <p>Save your favourites easily and always have something to watch.</p>
+        </article>
+
+        <article class="feature-card">
+          <h3>Watch everywhere</h3>
+          <p>Stream unlimited movies and TV shows on your phone, tablet, laptop,and TV.</p>
+        </article>
+
+        <article class="feature-card">
+          <h3>Create profiles for kids</h3>
+          <p>Send kids on adventures with their favourite characters in a space
+            made just for them — free with your membership.</p>
+        </article>
+      </div>
+    </section>
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <article class="faq-item">
+        <details>
+          <summary>What is Netflix?</summary>
+          <p>Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries and more – on
+            thousands of internet-connected devices. You can watch as much as
+            you want, whenever you want, without a single ad – all for one low
+            monthly price.</p>
+        </details>
+      </article>
+      <article class="faq-item">
+        <details>
+          <summary>How much does Netflix cost?</summary>
+          <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+            streaming device, all for one fixed monthly fee. Plans range from
+            ₹149 to ₹649/month.</p>
+        </details>
+      </article>
+      <article class="faq-item">
+        <details>
+          <summary>Where can I watch?</summary>
+          <p>Watch anywhere, anytime. Sign in with your Netflix account to watch
+            instantly on the web or on any internet-connected device that offers
+            the Netflix app.</p>
+        </details>
+      </article>
+      <article class="faq-item">
+        <details>
+          <summary>How can I cancel?</summary>
+          <p>Netflix is flexible. You can easily cancel your account online in
+            two clicks. There are no cancellation fees – start or stop your
+            account anytime.</p>
+        </details>
+      </article>
+      <article class="faq-item">
+        <details>
+          <summary>What can I watch on Netflix?</summary>
+          <p>Netflix has an extensive library of feature films, documentaries,
+            shows, anime, award-winning Netflix originals, and more. Watch as
+            much as you want, anytime you want.</p>
+        </details>
+      </article>
+      <article class="faq-item">
+        <details>
+          <summary>Is Netflix good for kids?</summary>
+          <p>The Netflix Kids experience is included in your membership to give
+            parents control while kids enjoy family-friendly TV shows and films
+            in their own space.</p>
+        </details>
+      </article>
+    </section>
+    <section class="bottom-signup">
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      <form class="email-form">
+        <input type="email" placeholder="Email address" required />
+        <button type="submit">Get Started</button>
+      </form>
+    </section>
+    <footer>
+      <p class="questions">Questions? Call 000-800-919-1694</p>
+      <nav class="footer-links">
+        <a href="https://help.netflix.com/en/node/412"> FAQ </a>
+        <a href="https://help.netflix.com/en"> Help Centre </a>
+        <a href="https://www.netflix.com/in/login"> Account </a>
+        <a href="https://media.netflix.com/en/"> Media Centre </a>
+        <a href="https://ir.netflix.net/"> Investor Relations </a>
+        <a href="https://jobs.netflix.com/"> Jobs </a>
+        <a href="https://help.netflix.com/en/node/14361"> Ways to Watch </a>
+        <a href="https://help.netflix.com/legal/termsofuse"> Terms of Use </a>
+        <a href="https://help.netflix.com/legal/privacy"> Privacy </a>
+        <a href="#"> Corporate Information </a>
+        <a href="https://help.netflix.com/en/contactus"> Contact Us </a>
+        <a href="https://fast.com/"> Speed Test </a>
+        <a href="https://help.netflix.com/legal/notices"> Legal Notices </a>
+        <a href="https://www.netflix.com/in/browse/genre/839338">
+          Only on Netflix
+        </a>
+      </nav>
+      <select class="footer-language">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+      </select>
+      <p class="country">Netflix India</p>
+      <p class="recaptcha">
+        This page is protected by Google reCAPTCHA to ensure you're not a bot.
+      </p>
+    </footer>
+  </body>
+</html>
